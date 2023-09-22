@@ -1,0 +1,46 @@
+/**
+ * @license
+ *
+ * Font Family: Clash Display
+ * Designed by: Indian Type Foundry
+ * URL: https://www.fontshare.com/fonts/clash-display
+ * © 2023 Indian Type Foundry
+ *
+ * Font Style:
+ * Clash Display Bold
+ *
+*/
+
+@font-face {
+  font-family: "ClashDisplay-Bold";
+  src: url("./assets/fonts/Clash\ Display/ClashDisplay-Bold.woff2")
+      format("woff2"),
+    url("./assets/fonts/Clash\ Display/ClashDisplay-Bold.woff") format("woff"),
+    url("./assets/fonts/Clash\ Display/ClashDisplay-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+/**
+ * @license
+ *
+ * Font Family: Montserrat
+ * Designed by: Julieta Ulanovsky, Sol Matas, Juan Pablo del Peral, Jacques Le Bailly
+ * URL: https://www.fontshare.com/fonts/montserrat
+ * © 2023 Indian Type Foundry
+ *
+ * Font Style:
+ * Montserrat Regular
+ *
+*/
+
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("./assets/fonts/Montserrat/Montserrat-Regular.woff2") format("woff2"),
+    url("./assets/fonts/Montserrat/Montserrat-Regular.woff") format("woff"),
+    url("./assets/fonts/Montserrat/Montserrat-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}

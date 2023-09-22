@@ -1,0 +1,48 @@
+.HeroBg {
+  min-height: 813px;
+  height: calc(100vh - var(--nav-height));
+}
+
+.HeroBg p {
+  font-size: 20px;
+  line-height: 33.2px;
+  max-width: 40ch;
+}
+.hero__image__ctn {
+  border: 1px solid red;
+  background: url("../../assets/images/purple-lens-flare-png.png"),
+    transparent -0.25px 0px / 130.652% 100% no-repeat;
+  background-blend-mode: hard-light;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 5;
+}
+
+.globe__thingy {
+  position: absolute;
+  bottom: 5.6rem;
+  right: 6.4rem;
+  width: 667px;
+  height: 641px;
+  background: url("../../assets/images/image-1.png"), transparent
+    0 0 / 105.862% 104.281% no-repeat;
+  background-blend-mode: hard-light;
+  z-index: 4;
+}
+.person__thingy {
+  position: absolute;
+  bottom: -5rem;
+  right: -5rem;
+  width: 828px;
+  height: 715px;
+  background: url("../../assets/images/man-touching-virtual-screen.png"),
+    50% / cover no-repeat;
+  filter: grayscale(40%);
+  background-blend-mode: luminosity;
+  border: 1px solid red;
+  z-index: 3;
+}

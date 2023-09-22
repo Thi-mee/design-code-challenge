@@ -1,13 +1,86 @@
-body {
+@import url("fonts.css");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  line-height: 1.5;
+  font-size: 1.6rem;
   -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: Montserrat-Regular, sans-serif;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root {
+  isolation: isolate;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: ClashDisplay-Bold, sans-serif;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+:root {
+  --primary-color: linear-gradient(270deg, #903AFF 0%, #FE34B9 100%);
+  --secondary-color: #150E28;
+  --tertiary-color: #903AFF;
+  --accent-color: #D434FE;
+  --text-color: #FFFFFF;
+
+  --font-family: Montserrat-Regular, sans-serif;
+  --font-family-bold: ClashDisplay-Bold, sans-serif;
+
+  --nav-height: 14.2rem;
+}
+
+body {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+
+}
+
+h1 {
+  font-size: 8rem;
+  line-height: 1.1;
 }

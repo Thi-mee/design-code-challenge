@@ -1,0 +1,18 @@
+.ctab {
+  background: var(--primary-color);
+  color: var(--text-color);
+  border-radius: 4px;
+  flex-shrink: 0;
+  max-width: 172px;
+  max-height: 53px;
+  padding: 1.5rem 5rem;
+  border: 0;
+  font-size: 1.6rem;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.ctab:hover {
+  scale: 1.1;
+}
+
